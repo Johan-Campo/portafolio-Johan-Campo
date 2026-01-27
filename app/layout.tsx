@@ -11,23 +11,8 @@ export const metadata: Metadata = {
   title: "Johan Campo | Full-Stack Developer",
   description:
     "Full-Stack Developer specializing in Backend & Automation. Node.js, NestJS, Express, TypeScript, and n8n automation expert.",
-  generator: "v0.app",
   icons: {
-    icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
-    apple: "/apple-icon.png",
+    icon: "/icon.ico",
   },
 }
 
