@@ -40,7 +40,7 @@ Este repositorio contiene todo el código fuente del portafolio. Para ejecutar l
 1. Clona el repositorio:  
    ```bash
    git clone https://github.com/Johan-Campo/portafolio-Johan-Campo.git
-2. Installa las dependencias:  
+2. Instala las dependencias:  
    ```bash
    npm install
 3. Ejecuta el proyecto en local:  
