@@ -1,30 +1,57 @@
-# Personal portfolio website
+Johan Alejandro Campo – Personal Portfolio
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+Bienvenido a mi portafolio personal, donde comparto mis proyectos, habilidades y experiencia en desarrollo web y software. Este sitio web está diseñado para mostrar mi trabajo de manera profesional y accesible.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/johancampo12-4999s-projects/v0-personal-portfolio-website)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/cEYp5MfNzBD)
+Sitio en línea: https://johan-campo-portfolio-2e9bb.web.app/
 
-## Overview
+Acerca de este portafolio
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+Este portafolio incluye:
 
-## Deployment
+Información sobre mí y mi trayectoria.
 
-Your project is live at:
+Proyectos destacados con descripciones y enlaces.
 
-**[https://vercel.com/johancampo12-4999s-projects/v0-personal-portfolio-website](https://vercel.com/johancampo12-4999s-projects/v0-personal-portfolio-website)**
+Tecnologías y herramientas que utilizo.
 
-## Build your app
+Formulario de contacto para consultas profesionales.
 
-Continue building your app on:
+El sitio está construido con TypeScript, React y Next.js, y está desplegado mediante Firebase, garantizando un acceso rápido y seguro.
 
-**[https://v0.app/chat/cEYp5MfNzBD](https://v0.app/chat/cEYp5MfNzBD)**
+Tecnologías principales
 
-## How It Works
+Lenguaje: TypeScript (mayormente), JavaScript (ocasional)
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+Frontend y framework: React, Next.js, React Router DOM
+
+Despliegue y hosting: Firebase
+
+Otras herramientas: CSS moderno, animaciones con Framer Motion, manejo de CORS, etc.
+
+Cómo usar este repositorio
+
+Este repositorio contiene todo el código fuente del portafolio. Puedes:
+
+Clonar el repositorio:
+
+git clone https://github.com/Johan-Campo/portafolio-Johan-Campo.git
+
+Instalar dependencias:
+
+npm install
+
+Ejecutar en local:
+
+npm run dev
+
+Desplegar cambios en Firebase según tu configuración de hosting.
+
+Contacto
+
+Si quieres contactarme o conocer más sobre mis proyectos:
+
+Correo: johancampo12@gmail.com
+
+LinkedIn: www.linkedin.com/in/johan-alejandro-campo-pabon-6b1a422b8
+
+Johan Alejandro Campo – Personal Portfolio
