@@ -1,57 +1,57 @@
-Johan Alejandro Campo – Personal Portfolio
+# Johan Alejandro Campo – Personal Portfolio
 
-Bienvenido a mi portafolio personal, donde comparto mis proyectos, habilidades y experiencia en desarrollo web y software. Este sitio web está diseñado para mostrar mi trabajo de manera profesional y accesible.
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) 
+[![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/) 
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/) 
+[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com/) 
 
-Sitio en línea: https://johan-campo-portfolio-2e9bb.web.app/
+Bienvenido a mi portafolio personal, donde comparto mis proyectos, habilidades y experiencia en desarrollo web. Este sitio web está diseñado para mostrar mi trabajo de manera profesional y accesible.
 
-Acerca de este portafolio
+**Sitio en línea:** [https://johan-campo-portfolio-2e9bb.web.app/](https://johan-campo-portfolio-2e9bb.web.app/)
 
-Este portafolio incluye:
+---
 
-Información sobre mí y mi trayectoria.
+## Acerca de este portafolio
 
-Proyectos destacados con descripciones y enlaces.
+Mi portafolio incluye:
 
-Tecnologías y herramientas que utilizo.
+- Información sobre mí y mi trayectoria profesional.
+- Proyectos destacados con descripciones y enlaces.
+- Tecnologías y herramientas que utilizo.
+- Formulario de contacto para consultas profesionales.
 
-Formulario de contacto para consultas profesionales.
+Construido con **TypeScript**, **React** y **Next.js**, y desplegado mediante **Firebase**, garantizando un acceso rápido y seguro desde cualquier dispositivo.
 
-El sitio está construido con TypeScript, React y Next.js, y está desplegado mediante Firebase, garantizando un acceso rápido y seguro.
+---
 
-Tecnologías principales
+## Tecnologías principales
 
-Lenguaje: TypeScript (mayormente), JavaScript (ocasional)
+- **Lenguaje:** TypeScript (mayormente), JavaScript (ocasional)  
+- **Framework y Frontend:** React, Next.js  
+- **Despliegue y hosting:** Firebase  
+- **Otras herramientas:** CSS moderno, animaciones con Framer Motion, manejo de CORS, React Router DOM, etc.
 
-Frontend y framework: React, Next.js, React Router DOM
+---
 
-Despliegue y hosting: Firebase
+## Cómo usar este repositorio
 
-Otras herramientas: CSS moderno, animaciones con Framer Motion, manejo de CORS, etc.
+Este repositorio contiene todo el código fuente del portafolio. Para ejecutar localmente:
 
-Cómo usar este repositorio
+1. Clona el repositorio:  
+   ```bash
+   git clone https://github.com/Johan-Campo/portafolio-Johan-Campo.git
+2. Installa las dependencias:  
+   ```bash
+   npm install
+3. Ejecuta el proyecto en local:  
+   ```bash
+   npm run dev
 
-Este repositorio contiene todo el código fuente del portafolio. Puedes:
-
-Clonar el repositorio:
-
-git clone https://github.com/Johan-Campo/portafolio-Johan-Campo.git
-
-Instalar dependencias:
-
-npm install
-
-Ejecutar en local:
-
-npm run dev
-
-Desplegar cambios en Firebase según tu configuración de hosting.
-
-Contacto
+## Contacto
 
 Si quieres contactarme o conocer más sobre mis proyectos:
 
-Correo: johancampo12@gmail.com
+- **Correo:** johancampo12@gmail.com
+- **LinkedIn:** [linkedin.com/in/johan-alejandro-campo-pabon](https://linkedin.com)
+- **GitHub:** [github.com/Johan-Campo](https://github.com)
 
-LinkedIn: www.linkedin.com/in/johan-alejandro-campo-pabon-6b1a422b8
-
-Johan Alejandro Campo – Personal Portfolio
