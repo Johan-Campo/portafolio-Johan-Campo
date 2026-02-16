@@ -64,10 +64,14 @@ export const translations = {
         {
           title: "MarTree",
           description: "A customizable personal link management platform designed to centralize online presence through a clean and modern interface.",
+          github: "https://github.com/Johan-Campo/deploy_MarTree_frontend",
+          demo: "https://johancampo-martree.netlify.app/"
         },
         {
           title: "Accounting Automation with n8n",
           description: "Automated accounting workflows using n8n, integrating AI/OCR for document processing and generating consolidated reports.",
+          github: "",
+          demo: ""
         },
       ],
       buildingMessage: "Currently building and refining new projects...",
@@ -162,10 +166,14 @@ export const translations = {
         {
           title: "MarTree",
           description: "Una plataforma personalizable de gestión de enlaces personales diseñada para centralizar la presencia en línea a través de una interfaz limpia y moderna.",
+          github: "https://github.com/Johan-Campo/deploy_MarTree_frontend",
+          demo: "https://johancampo-martree.netlify.app/"
         },
         {
           title: "Automatización Contable con n8n",
           description: "Flujos de trabajo contables automatizados usando n8n, integrando AI/OCR para procesamiento de documentos y generando reportes consolidados.",
+          github: "",
+          demo: ""
         },
       ],
       buildingMessage: "Actualmente construyendo y refinando nuevos proyectos...",

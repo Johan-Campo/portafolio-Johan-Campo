@@ -39,8 +39,6 @@ export function ProjectsSection() {
   const projects = t.projects.items.map((item, index) => ({
     ...item,
     tech: projectTech[index] || [],
-    github: index === 0 ? "https://github.com/Johan-Campo/deploy_MarTree_frontend" : "#",
-    demo: index === 0 ? "https://johancampo-martree.netlify.app/" : "#",
   }))
 
   return (
@@ -64,6 +62,7 @@ export function ProjectsSection() {
                   <div className="flex items-start justify-between mb-4">
                     <FolderGit2 className="w-10 h-10 text-primary" />
                     <div className="flex gap-3">
+                      {project.github && (
                       <a
                         href={project.github}
                         target="_blank"
@@ -73,6 +72,9 @@ export function ProjectsSection() {
                       >
                         <Github className="w-5 h-5" />
                       </a>
+                      )}
+
+                      {project.demo && (
                       <a
                         href={project.demo}
                         target="_blank"
@@ -82,6 +84,7 @@ export function ProjectsSection() {
                       >
                         <ExternalLink className="w-5 h-5" />
                       </a>
+                      )}
                     </div>
                   </div>
 
