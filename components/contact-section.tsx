@@ -11,12 +11,12 @@ const socialLinks = [
   {
     icon: Github,
     label: "GitHub",
-    href: "#",
+    href: "https://github.com/Johan-Campo",
   },
   {
     icon: Linkedin,
     label: "LinkedIn",
-    href: "#",
+    href: "https://www.linkedin.com/in/johan-alejandro-campo-pabon-6b1a422b8/",
   },
 ]
 
