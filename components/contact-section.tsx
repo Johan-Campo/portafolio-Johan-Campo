@@ -96,7 +96,7 @@ export function ContactSection() {
             <div className="flex gap-4 pt-4">
               {socialLinks.map((link) => (
                 <Button key={link.label} variant="outline" size="icon" asChild className="bg-transparent">
-                  <a href={link.href} aria-label={link.label}>
+                  <a href={link.href} target="_blank" rel="nooneper noreferrer" aria-label={link.label}>
                     <link.icon className="w-5 h-5" />
                   </a>
                 </Button>
