@@ -14,22 +14,30 @@ export function SkillsSection() {
     {
       title: t.skills.categories.backend,
       icon: Server,
-      skills: ["APIs REST", "Node.js", "NestJS", "Express", "PHP", "Laravel"],
+      skills: [
+        "C#",
+        ".NET",
+        "ASP.NET Core",
+        "Entity Framework",
+        "REST APIs",
+        "PHP",
+        "Laravel",
+      ],
     },
     {
       title: t.skills.categories.frontend,
       icon: Layout,
-      skills: ["JavaScript", "React", "Tailwind CSS", "HTML"],
-    },
-    {
-      title: t.skills.categories.automation,
-      icon: Zap,
-      skills: ["n8n", "API Integrations", "OCR & AI Services"],
+      skills: ["React", "TypeScript", "JavaScript", "Tailwind CSS", "HTML"],
     },
     {
       title: t.skills.categories.databases,
       icon: Database,
       skills: ["MySQL", "PostgreSQL", "MongoDB"],
+    },
+    {
+      title: t.skills.categories.automation,
+      icon: Zap,
+      skills: ["API Integrations", "n8n", "OCR & AI Services"],
     },
     {
       title: t.skills.categories.soft,

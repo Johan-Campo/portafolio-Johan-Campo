@@ -23,14 +23,11 @@ export function AboutSection() {
           <div className="space-y-6">
             <p className="text-foreground text-lg leading-relaxed">
               {t.about.p1}{" "}
-              <span className="text-primary font-medium">Node.js</span>,{" "}
-              <span className="text-primary font-medium">NestJS</span>,{" "}
-              <span className="text-primary font-medium">Express</span>
-              {t.about.p1Cont}{" "}
+              <span className="text-primary font-medium">C#</span>,{" "}
+              <span className="text-primary font-medium">.NET</span>,{" "}
+              <span className="text-primary font-medium">ASP.NET Core</span>{" "}
+              y herramientas de automatización como{" "}
               <span className="text-primary font-medium">n8n</span>.
-            </p>
-            <p className="leading-relaxed text-foreground">
-              {t.about.p2}
             </p>
             <p className="leading-relaxed text-foreground">
               {t.about.p3}

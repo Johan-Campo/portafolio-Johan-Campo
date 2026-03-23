@@ -1,6 +1,5 @@
 export const translations = {
   en: {
-    // Navigation
     nav: {
       about: "About",
       skills: "Skills",
@@ -9,24 +8,27 @@ export const translations = {
       education: "Education",
       contact: "Contact",
     },
-    // Hero
+
     hero: {
-      role: "Full-Stack Developer",
-      subtitle: "Backend & Automation specialist building scalable APIs and automating business processes with modern technologies.",
+      role: "Full-Stack Developer · C# / .NET",
+      subtitle:
+        "Full-stack developer with a strong backend focus using C# and .NET, experienced in building services, integrating platforms and developing solutions that support real business workflows.",
       downloadCV: "Download CV",
       downloadCVSpanish: "Download CV (Spanish)",
       downloadCVEnglish: "Download CV (English)",
       viewProjects: "View Projects",
     },
-    // About
+
     about: {
       title: "About",
-      p1: "Full-Stack Developer with a Backend focus, specialized in",
-      p1Cont: ", JavaScript and TypeScript, with experience in developing REST APIs, service integration and business process automation using",
-      p2: "I work with MySQL databases and service-oriented architectures. I also have experience with PHP and Laravel as a complementary stack.",
-      p3: "I am currently an Electronic Engineering student close to graduation, focused on strengthening my skills in modern backend and development best practices.",
+      p1:
+        "Full-stack developer specialized in C#, .NET and ASP.NET Core, with experience building services, integrating external platforms and developing web applications using modern technologies. I also work with PHP and Laravel as part of my backend toolkit.",
+      p2:
+        "My background in Electronic Engineering has strengthened my analytical thinking and understanding of system logic, which supports the way I design and structure software solutions.",
+      p3:
+        "I enjoy working across both backend and frontend layers, building maintainable applications and continuously improving my skills in modern development practices and system design.",
     },
-    // Skills
+
     skills: {
       title: "Skills",
       categories: {
@@ -36,73 +38,84 @@ export const translations = {
         databases: "Databases",
         soft: "Soft Skills",
       },
-      softSkills: ["Problem Solving", "Analytical Thinking", "Effective Communication"],
+      softSkills: [
+        "Problem Solving",
+        "Analytical Thinking",
+        "Clear Communication",
+      ],
     },
-    // Experience
+
     experience: {
       title: "Experience",
       jobs: [
         {
-          title: "Automation Developer",
+          title: "Full-Stack Developer and Automation",
           company: "WantDigital S.A.S",
-          location: "Remote",
-          period: "Oct 2025 – Dec 2025",
+          location: "Bogotá, Colombia",
+          period: "Jun 2025 – Dec 2025",
           responsibilities: [
-            "Design and implementation of automation workflows for accounting and payment processes using n8n.",
-            "Automated extraction of data from PDF payment vouchers using AI/OCR.",
-            "Integration with Google Drive and Google APIs to process documents organized by year and month.",
-            "Generation of consolidated Excel reports for auditing, significantly reducing manual work.",
-            "Design of scalable n8n + AI agent architecture with traceability between records and PDF documents.",
+            "Developed backend solutions using PHP for administrative systems.",
+            "Built automation workflows using PHP, n8n, and OCR services to process financial documents (PDF vouchers).",
+            "Extracted and structured key data from Google Drive into consolidated Excel reports.",
+            "Reduced manual workload in accounting processes through automation.",
+            "Improved data traceability and reduced operational errors.",
           ],
         },
       ],
     },
-    // Projects
+
     projects: {
       title: "Projects",
       items: [
         {
           title: "MarTree",
-          description: "A customizable personal link management platform designed to centralize online presence through a clean and modern interface.",
-          github: "https://github.com/Johan-Campo/deploy_MarTree_frontend",
-          demo: "https://johancampo-martree.netlify.app/"
+          description:
+            "Customizable personal link management platform designed to centralize online presence through a clean and modern interface.",
+          github:
+            "https://github.com/Johan-Campo/deploy_MarTree_frontend",
+          demo:
+            "https://johancampo-martree.netlify.app/",
         },
+
         {
           title: "Accounting Automation with n8n",
-          description: "Automated accounting workflows using n8n, integrating AI/OCR for document processing and generating consolidated reports.",
+          description:
+            "Automation workflows for document processing and reporting, integrating OCR services and structured data pipelines.",
           github: "",
-          demo: ""
+          demo: "",
         },
       ],
-      buildingMessage: "Currently building and refining new projects...",
+
+      buildingMessage:
+        "Currently expanding the portfolio with new backend-focused projects.",
     },
-    // Education
+
     education: {
       title: "Education",
       degree: "Electronic Engineering",
       university: "Universidad del Magdalena",
-      status: "In Progress – Near Completion",
     },
-    // Contact
+
     contact: {
       title: "Contact",
       heading: "Let's work together",
-      description: "I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.",
+      description:
+        "I'm open to opportunities where I can contribute to full-stack development, integrations or technical solutions with real impact.",
       email: "Email",
       phone: "Phone",
       location: "Location",
     },
-    // Footer
+
     footer: {
-      role: "Full-Stack Developer · Backend & Automation",
+      role: "Full-Stack Developer · C# / .NET",
     },
-    // Technologies
+
     technologies: {
       title: "Technologies",
     },
   },
+
   es: {
-    // Navigation
     nav: {
       about: "Acerca",
       skills: "Habilidades",
@@ -111,24 +124,26 @@ export const translations = {
       education: "Educación",
       contact: "Contacto",
     },
-    // Hero
+
     hero: {
-      role: "Desarrollador Full-Stack",
-      subtitle: "Especialista en Backend y Automatización construyendo APIs escalables y automatizando procesos empresariales con tecnologías modernas.",
+      role: "Desarrollador Full-Stack · C# / .NET",
+      subtitle:
+        "Desarrollador full-stack con enfoque en backend usando C# y .NET, con experiencia en la construcción de servicios, integración de plataformas y desarrollo de soluciones orientadas a procesos reales.",
       downloadCV: "Descargar CV",
       downloadCVSpanish: "Descargar CV (Español)",
       downloadCVEnglish: "Descargar CV (Inglés)",
       viewProjects: "Ver Proyectos",
     },
-    // About
+
     about: {
       title: "Acerca",
-      p1: "Desarrollador Full-Stack con enfoque en Backend, especializado en",
-      p1Cont: ", JavaScript y TypeScript, con experiencia en el desarrollo de APIs REST, integración de servicios y automatización de procesos empresariales mediante",
-      p2: "Trabajo con bases de datos MySQL y arquitecturas orientadas a servicios. Cuento también con experiencia en PHP y Laravel como stack complementario.",
-      p3: "Actualmente soy estudiante de Ingeniería Electrónica próximo a culminar, enfocado en fortalecer habilidades en backend moderno y buenas prácticas de desarrollo.",
+      p1:
+        "Desarrollador full-stack especializado en C#, .NET y ASP.NET Core, con experiencia en la construcción de servicios, integración de plataformas externas y desarrollo de aplicaciones web utilizando tecnologías modernas. También trabajo con PHP y Laravel como parte de mi stack backend.",
+      p2:
+        "Mi formación en Ingeniería Electrónica ha fortalecido mi pensamiento analítico y mi comprensión de la lógica de sistemas, lo que influye en la forma en que diseño y estructuro soluciones de software.",
+      p3:
+        "Disfruto trabajar tanto en backend como en frontend, construyendo aplicaciones mantenibles y fortaleciendo continuamente mis habilidades en desarrollo moderno y diseño de sistemas.",
     },
-    // Skills
     skills: {
       title: "Habilidades",
       categories: {
@@ -138,67 +153,78 @@ export const translations = {
         databases: "Bases de Datos",
         soft: "Habilidades Blandas",
       },
-      softSkills: ["Resolución de Problemas", "Pensamiento Analítico", "Comunicación Efectiva"],
+      softSkills: [
+        "Resolución de Problemas",
+        "Pensamiento Analítico",
+        "Comunicación Clara",
+      ],
     },
-    // Experience
+
     experience: {
       title: "Experiencia",
       jobs: [
         {
-          title: "Desarrollador de Automatización",
+          title: "Desarrollador Full-Stack y Automatización",
           company: "WantDigital S.A.S",
-          location: "Remoto",
-          period: "Oct 2025 – Dic 2025",
+          location: "Bogotá, Colombia",
+          period: "Jun 2025 – Dic 2025",
           responsibilities: [
-            "Diseño e implementación de flujos de automatización para procesos contables y de pagos usando n8n.",
-            "Extracción automatizada de datos de comprobantes de pago PDF usando AI/OCR.",
-            "Integración con Google Drive y APIs de Google para procesar documentos organizados por año y mes.",
-            "Generación de reportes consolidados en Excel para auditoría, reduciendo significativamente el trabajo manual.",
-            "Diseño de arquitectura escalable n8n + agente AI con trazabilidad entre registros y documentos PDF.",
+            "Desarrollé soluciones backend usando PHP para sistemas administrativos.",
+            "Construí flujos de automatización utilizando PHP, n8n y servicios OCR para procesar documentos financieros (comprobantes en PDF).",
+            "Extraje y estructuré datos clave desde Google Drive hacia reportes consolidados en Excel.",
+            "Reduje la carga operativa manual en procesos contables mediante automatización.",
+            "Mejoré la trazabilidad de la información y reduje errores operativos.",
           ],
         },
       ],
     },
-    // Projects
+
     projects: {
       title: "Proyectos",
       items: [
         {
           title: "MarTree",
-          description: "Una plataforma personalizable de gestión de enlaces personales diseñada para centralizar la presencia en línea a través de una interfaz limpia y moderna.",
-          github: "https://github.com/Johan-Campo/deploy_MarTree_frontend",
-          demo: "https://johancampo-martree.netlify.app/"
+          description:
+            "Plataforma personalizable de gestión de enlaces diseñada para centralizar la presencia digital mediante una interfaz limpia y moderna.",
+          github:
+            "https://github.com/Johan-Campo/deploy_MarTree_frontend",
+          demo:
+            "https://johancampo-martree.netlify.app/",
         },
+
         {
           title: "Automatización Contable con n8n",
-          description: "Flujos de trabajo contables automatizados usando n8n, integrando AI/OCR para procesamiento de documentos y generando reportes consolidados.",
+          description:
+            "Flujos de automatización para procesamiento documental y generación de reportes integrando OCR y servicios externos.",
           github: "",
-          demo: ""
+          demo: "",
         },
       ],
-      buildingMessage: "Actualmente construyendo y refinando nuevos proyectos...",
+
+      buildingMessage:
+        "Actualmente ampliando el portafolio con nuevos proyectos orientados a backend.",
     },
-    // Education
+
     education: {
       title: "Educación",
       degree: "Ingeniería Electrónica",
       university: "Universidad del Magdalena",
-      status: "En Curso – Próximo a Culminar",
     },
-    // Contact
+
     contact: {
       title: "Contacto",
       heading: "Trabajemos juntos",
-      description: "Siempre estoy abierto a discutir nuevos proyectos, ideas creativas u oportunidades para ser parte de tu visión.",
+      description:
+        "Estoy abierto a oportunidades donde pueda aportar en desarrollo full-stack, integraciones o soluciones técnicas con impacto real.",
       email: "Correo",
       phone: "Teléfono",
       location: "Ubicación",
     },
-    // Footer
+
     footer: {
-      role: "Desarrollador Full-Stack · Backend y Automatización",
+      role: "Desarrollador Full-Stack · C# / .NET",
     },
-    // Technologies
+
     technologies: {
       title: "Tecnologías",
     },

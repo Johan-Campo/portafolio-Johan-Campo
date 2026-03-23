@@ -75,7 +75,7 @@ export function HeroSection() {
       es: "/cv/CV_Johan_Campo_ES.pdf",
       en: "/cv/CV_Johan_Campo_EN.pdf",
     }
-    
+
     const link = document.createElement("a")
     link.href = cvUrls[lang]
     link.download = `CV_Johan_Campo_${lang.toUpperCase()}.pdf`
@@ -119,26 +119,27 @@ export function HeroSection() {
           </p>
 
           <div className="flex flex-wrap gap-3 text-sm font-mono text-muted-foreground">
-            <span className="px-3 py-1 bg-secondary rounded-full">Node.js</span>
-            <span className="px-3 py-1 bg-secondary rounded-full">NestJS</span>
-            <span className="px-3 py-1 bg-secondary rounded-full">Express</span>
-            <span className="px-3 py-1 bg-secondary rounded-full">TypeScript</span>
+            <span className="px-3 py-1 bg-secondary rounded-full">C#</span>
+            <span className="px-3 py-1 bg-secondary rounded-full">.NET</span>
+            <span className="px-3 py-1 bg-secondary rounded-full">ASP.NET Core</span>
             <span className="px-3 py-1 bg-secondary rounded-full">Laravel</span>
             <span className="px-3 py-1 bg-secondary rounded-full">PHP</span>
+            <span className="px-3 py-1 bg-secondary rounded-full">React</span>
+            <span className="px-3 py-1 bg-secondary rounded-full">TypeScript</span>
             <span className="px-3 py-1 bg-secondary rounded-full">n8n</span>
           </div>
 
           <div className="flex flex-wrap gap-4 pt-4">
             <div className="relative" ref={panelRef}>
-              <Button 
-                size="lg" 
+              <Button
+                size="lg"
                 className="gap-2"
                 onClick={() => setShowCVPanel(!showCVPanel)}
               >
                 <Download className="w-4 h-4" />
                 {t.hero.downloadCV}
               </Button>
-              
+
               {/* CV Language Selection Panel */}
               {showCVPanel && (
                 <div className="absolute top-full left-0 mt-2 z-50 animate-in fade-in slide-in-from-top-2 duration-200">
@@ -148,10 +149,10 @@ export function HeroSection() {
                     <div className="absolute -top-1 -right-1 w-2 h-2 bg-primary" />
                     <div className="absolute -bottom-1 -left-1 w-2 h-2 bg-primary" />
                     <div className="absolute -bottom-1 -right-1 w-2 h-2 bg-primary" />
-                    
+
                     <div className="flex items-center justify-between mb-3">
                       <span className="text-xs font-mono text-primary tracking-wider uppercase">Select Language</span>
-                      <button 
+                      <button
                         onClick={() => setShowCVPanel(false)}
                         className="text-muted-foreground hover:text-foreground transition-colors"
                         aria-label="Close panel"
@@ -159,7 +160,7 @@ export function HeroSection() {
                         <X className="w-4 h-4" />
                       </button>
                     </div>
-                    
+
                     <div className="space-y-2">
                       <button
                         onClick={() => handleCVDownload("es")}
@@ -170,7 +171,7 @@ export function HeroSection() {
                           {t.hero.downloadCVSpanish}
                         </span>
                       </button>
-                      
+
                       <button
                         onClick={() => handleCVDownload("en")}
                         className="w-full flex items-center gap-3 px-3 py-2.5 bg-secondary/50 hover:bg-secondary border border-border hover:border-primary/50 rounded-md transition-all duration-200 group"
@@ -185,7 +186,7 @@ export function HeroSection() {
                 </div>
               )}
             </div>
-            
+
             <Button asChild variant="outline" size="lg" className="gap-2 bg-transparent">
               <a href="#projects">
                 <ArrowDown className="w-4 h-4" />
