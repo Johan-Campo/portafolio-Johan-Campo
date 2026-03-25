@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',   // 🔥 CLAVE
+  output: 'export',   //<-- COMENTA ESTO
   images: {
     unoptimized: true,
   },

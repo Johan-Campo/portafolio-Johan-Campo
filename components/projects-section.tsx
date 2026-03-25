@@ -7,7 +7,7 @@ import { useScrollReveal } from "@/hooks/use-scroll-reveal"
 
 const projectTech = [
   ["Express", "React", "JavaScript", "TypeScript", "MongoDB", "Postman", "Tailwind CSS"],
-  ["n8n", "AI/OCR", "Google APIs", "Excel"],
+  ["PHP", "MySQL", "AJAX", "MVC", "PDO", "Role-Based Auth", "CRUD Operations"],
 ]
 
 export function ProjectsSection() {
@@ -63,30 +63,38 @@ export function ProjectsSection() {
                     <FolderGit2 className="w-10 h-10 text-primary" />
                     <div className="flex gap-3">
                       {project.github && (
-                      <a
-                        href={project.github}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-muted-foreground hover:text-primary transition-colors"
-                        aria-label="View GitHub repository"
-                      >
-                        <Github className="w-5 h-5" />
-                      </a>
+                        <a
+                          href={project.github}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-muted-foreground hover:text-primary transition-colors"
+                          aria-label="View GitHub repository"
+                        >
+                          <Github className="w-5 h-5" />
+                        </a>
                       )}
 
                       {project.demo && (
-                      <a
-                        href={project.demo}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-muted-foreground hover:text-primary transition-colors"
-                        aria-label="View live demo"
-                      >
-                        <ExternalLink className="w-5 h-5" />
-                      </a>
+                        <a
+                          href={project.demo}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-muted-foreground hover:text-primary transition-colors"
+                          aria-label="View live demo"
+                        >
+                          <ExternalLink className="w-5 h-5" />
+                        </a>
                       )}
                     </div>
                   </div>
+
+                  {project.previewImage && (
+                    <img
+                      src={project.previewImage}
+                      alt={`Preview of ${project.title}`}
+                      className="w-full h-75 object-cover rounded-md mb-4"
+                    />
+                  )}
 
                   <h3 className="text-lg font-semibold text-foreground group-hover:text-primary transition-colors mb-2">
                     {project.title}

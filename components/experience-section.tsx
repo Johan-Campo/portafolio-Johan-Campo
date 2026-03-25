@@ -12,7 +12,7 @@ export function ExperienceSection() {
 
   const experiences = t.experience.jobs.map((job) => ({
     ...job,
-    skills: ["n8n", "AI/OCR", "Google APIs", "Excel", "API Integrations"],
+    skills: ["PHP", "MySQL","n8n", "Workflow Automation", "OCR Processing", "Google Drive API", "API Integrations", "Backend Development"],
   }))
 
   return (

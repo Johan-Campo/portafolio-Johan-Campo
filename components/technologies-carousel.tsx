@@ -6,23 +6,22 @@ import { TechIcons } from "./tech-icons"
 import { useScrollReveal } from "@/hooks/use-scroll-reveal"
 
 const technologies = [
-  { name: "Node.js", icon: TechIcons.nodejs },
-  { name: "NestJS", icon: TechIcons.nestjs },
-  { name: "Express", icon: TechIcons.express },
+  { name: "C#", icon: TechIcons.csharp },
+  { name: ".NET", icon: TechIcons.dotnet },
+  { name: "ASP.NET Core", icon: TechIcons.dotnet },
   { name: "PHP", icon: TechIcons.php },
   { name: "Laravel", icon: TechIcons.laravel },
-  { name: "JavaScript", icon: TechIcons.javascript },
-  { name: "TypeScript", icon: TechIcons.typescript },
+  { name: "Express", icon: TechIcons.express },
   { name: "React", icon: TechIcons.react },
+  { name: "TypeScript", icon: TechIcons.typescript },
+  { name: "JavaScript", icon: TechIcons.javascript },
   { name: "Tailwind CSS", icon: TechIcons.tailwindcss },
   { name: "HTML", icon: TechIcons.html },
   { name: "MySQL", icon: TechIcons.mysql },
   { name: "PostgreSQL", icon: TechIcons.postgresql },
   { name: "MongoDB", icon: TechIcons.mongodb },
   { name: "Postman", icon: TechIcons.postman },
-  { name: "n8n", icon: TechIcons.n8n },
   { name: "Git", icon: TechIcons.git },
-  { name: "REST APIs", icon: TechIcons.api },
 ]
 
 export function TechnologiesCarousel() {

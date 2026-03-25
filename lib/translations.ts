@@ -10,7 +10,7 @@ export const translations = {
     },
 
     hero: {
-      role: "Full-Stack Developer · C# / .NET",
+      role: "Full-Stack Developer",
       subtitle:
         "Full-stack developer with a strong backend focus using C# and .NET, experienced in building services, integrating platforms and developing solutions that support real business workflows.",
       downloadCV: "Download CV",
@@ -52,14 +52,17 @@ export const translations = {
           title: "Full-Stack Developer and Automation",
           company: "WantDigital S.A.S",
           location: "Bogotá, Colombia",
-          period: "Jun 2025 – Dec 2025",
+          period: "January 2025 – December 2025",
           responsibilities: [
-            "Developed backend solutions using PHP for administrative systems.",
-            "Built automation workflows using PHP, n8n, and OCR services to process financial documents (PDF vouchers).",
-            "Extracted and structured key data from Google Drive into consolidated Excel reports.",
-            "Reduced manual workload in accounting processes through automation.",
-            "Improved data traceability and reduced operational errors.",
-          ],
+            "Diseñé e implementé soluciones backend en PHP para sistemas administrativos empresariales enfocados en gestión documental y procesos contables.",
+            "Desarrollé workflows de automatización utilizando n8n y servicios OCR/IA para el procesamiento automático de comprobantes financieros en PDF.",
+            "Extraje y estructuré información clave desde documentos almacenados en Google Drive (número de soporte, fecha, concepto, valor y banco) para su integración en sistemas internos.",
+            "Implementé procesos automáticos de inserción, actualización y validación de registros en bases de datos MySQL como parte de pipelines de automatización.",
+            "Generé reportes consolidados en Excel organizados por año y mes para facilitar procesos de auditoría y control financiero.",
+            "Diseñé una arquitectura de automatización documental basada en la integración de PHP, n8n y servicios OCR externos.",
+            "Optimicé procesos administrativos reduciendo significativamente la carga operativa manual del área contable.",
+            "Mejoré la trazabilidad de la información financiera y reduje errores operativos mediante procesamiento automatizado de datos."
+          ]
         },
       ],
     },
@@ -75,12 +78,13 @@ export const translations = {
             "https://github.com/Johan-Campo/deploy_MarTree_frontend",
           demo:
             "https://johancampo-martree.netlify.app/",
+          previewImage: "/project1-preview.png",
         },
 
         {
-          title: "Accounting Automation with n8n",
+          title: "ParadorSystem",
           description:
-            "Automation workflows for document processing and reporting, integrating OCR services and structured data pipelines.",
+            "POS system built with PHP, MySQL and AJAX following an MVC architecture. Implements role-based authentication, product and inventory management, and dynamic CRUD operations without page reloads. Designed to support real business workflows such as sales registration and stock control.",
           github: "",
           demo: "",
         },
@@ -126,7 +130,7 @@ export const translations = {
     },
 
     hero: {
-      role: "Desarrollador Full-Stack · C# / .NET",
+      role: "Desarrollador Full-Stack",
       subtitle:
         "Desarrollador full-stack con enfoque en backend usando C# y .NET, con experiencia en la construcción de servicios, integración de plataformas y desarrollo de soluciones orientadas a procesos reales.",
       downloadCV: "Descargar CV",
@@ -167,14 +171,17 @@ export const translations = {
           title: "Desarrollador Full-Stack y Automatización",
           company: "WantDigital S.A.S",
           location: "Bogotá, Colombia",
-          period: "Jun 2025 – Dic 2025",
+          period: "Enero 2025 – Diciembre 2025",
           responsibilities: [
-            "Desarrollé soluciones backend usando PHP para sistemas administrativos.",
-            "Construí flujos de automatización utilizando PHP, n8n y servicios OCR para procesar documentos financieros (comprobantes en PDF).",
-            "Extraje y estructuré datos clave desde Google Drive hacia reportes consolidados en Excel.",
-            "Reduje la carga operativa manual en procesos contables mediante automatización.",
-            "Mejoré la trazabilidad de la información y reduje errores operativos.",
-          ],
+            "Diseñé e implementé soluciones backend en PHP para sistemas administrativos empresariales orientados a la gestión documental y contable.",
+            "Desarrollé flujos de automatización utilizando n8n y servicios OCR/IA para el procesamiento automático de comprobantes financieros en PDF.",
+            "Extraje y estructuré información clave desde documentos almacenados en Google Drive (número de soporte, fecha, concepto, valor y entidad bancaria) para su posterior análisis.",
+            "Implementé procesos automáticos de actualización y modificación de registros en bases de datos MySQL como parte de los flujos de automatización.",
+            "Generé reportes consolidados en Excel organizados por año y mes, optimizados para procesos internos y auditoría contable.",
+            "Diseñé una arquitectura de automatización documental basada en integración entre PHP, n8n y servicios externos de OCR.",
+            "Reduje significativamente la carga operativa manual del área contable mediante la automatización de tareas repetitivas.",
+            "Mejoré la trazabilidad de la información financiera y reduje errores operativos en los procesos administrativos."
+          ]
         },
       ],
     },
@@ -190,12 +197,13 @@ export const translations = {
             "https://github.com/Johan-Campo/deploy_MarTree_frontend",
           demo:
             "https://johancampo-martree.netlify.app/",
+          previewImage: "/project1-preview.png",
         },
 
         {
-          title: "Automatización Contable con n8n",
+          title: "ParadorSystem",
           description:
-            "Flujos de automatización para procesamiento documental y generación de reportes integrando OCR y servicios externos.",
+            "Sistema POS desarrollado con PHP, MySQL y AJAX bajo arquitectura MVC. Implementa autenticación con control de acceso por roles, gestión de productos, ventas y control de inventario, además de operaciones CRUD dinámicas sin recarga de página orientadas a flujos reales de negocio.",
           github: "",
           demo: "",
         },
@@ -222,7 +230,7 @@ export const translations = {
     },
 
     footer: {
-      role: "Desarrollador Full-Stack · C# / .NET",
+      role: "Desarrollador Full-Stack",
     },
 
     technologies: {
