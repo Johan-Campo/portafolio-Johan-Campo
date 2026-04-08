@@ -82,7 +82,18 @@ export const translations = {
         },
 
         {
-          title: "ParadorSystem",
+          title: "Estadero Parador Turístico",
+          description:
+            "Administrative web application built with ASP.NET Core MVC to manage branches, categories, and products through a secure panel with authentication using Identity. Deployed on Microsoft Azure using App Service and Azure SQL Database.",
+          github:
+            "",
+          demo:
+            "https://estadero-parador-arbyh6gdb0g3ceg7.canadacentral-01.azurewebsites.net/",
+          previewImage: "/estadero-preview.png",
+        },
+
+        {
+          title: "ParadorSystem (Under Development)",
           description:
             "POS system built with PHP, MySQL and AJAX following an MVC architecture. Implements role-based authentication, product and inventory management, and dynamic CRUD operations without page reloads. Designed to support real business workflows such as sales registration and stock control.",
           github: "",
@@ -201,7 +212,18 @@ export const translations = {
         },
 
         {
-          title: "ParadorSystem",
+          title: "Estadero Parador Turístico",
+          description:
+            "Aplicación web administrativa desarrollada con ASP.NET Core MVC para gestionar sucursales, categorías y productos mediante un panel con autenticación segura usando Identity. Desplegada en Microsoft Azure con App Service y Azure SQL Database.",
+          github:
+            "",
+          demo:
+            "https://estadero-parador-arbyh6gdb0g3ceg7.canadacentral-01.azurewebsites.net/",
+          previewImage: "/estadero-preview.png",
+        },
+
+        {
+          title: "ParadorSystem (En desarrollo)",
           description:
             "Sistema POS desarrollado con PHP, MySQL y AJAX bajo arquitectura MVC. Implementa autenticación con control de acceso por roles, gestión de productos, ventas y control de inventario, además de operaciones CRUD dinámicas sin recarga de página orientadas a flujos reales de negocio.",
           github: "",
