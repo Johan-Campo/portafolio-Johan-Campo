@@ -6,9 +6,8 @@ import { useLanguage } from "@/lib/language-context"
 import { useScrollReveal } from "@/hooks/use-scroll-reveal"
 
 const projectTech = [
-  ["Express", "React", "JavaScript", "TypeScript", "MongoDB", "Postman", "Tailwind CSS"],
-  ["ASP.NET Core MVC","C#","Entity Framework Core","SQL Server","Identity","Azure"],
-  ["PHP", "MySQL", "AJAX", "MVC", "PDO", "Role-Based Auth", "CRUD Operations"],
+  ["Next.js", "React", "JavaScript", "MongoDB", "Prisma", "Tailwind CSS", "Pusher"],
+  ["ASP.NET Core MVC", "C#", "Entity Framework Core", "SQL Server", "Identity", "Azure"],
 ]
 
 export function ProjectsSection() {

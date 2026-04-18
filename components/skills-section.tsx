@@ -20,24 +20,22 @@ export function SkillsSection() {
         "ASP.NET Core",
         "Entity Framework",
         "REST APIs",
-        "PHP",
-        "Laravel",
       ],
     },
     {
       title: t.skills.categories.frontend,
       icon: Layout,
-      skills: ["React", "TypeScript", "JavaScript", "Tailwind CSS", "HTML"],
+      skills: ["Next.js", "React", "JavaScript", "Tailwind CSS", "HTML"],
     },
     {
       title: t.skills.categories.databases,
       icon: Database,
-      skills: ["MySQL", "PostgreSQL", "MongoDB"],
+      skills: ["SQL Server", "PostgreSQL", "MongoDB"],
     },
     {
       title: t.skills.categories.automation,
       icon: Zap,
-      skills: ["API Integrations", "n8n", "OCR & AI Services"],
+      skills: ["Azure", "Pusher Channels", "API Integrations", "Real-time Systems"],
     },
     {
       title: t.skills.categories.soft,

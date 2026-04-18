@@ -22,7 +22,7 @@ export const translations = {
     about: {
       title: "About",
       p1:
-        "Full-stack developer specialized in C#, .NET and ASP.NET Core, with experience building services, integrating external platforms and developing web applications using modern technologies. I also work with PHP and Laravel as part of my backend toolkit.",
+        "Full-stack developer specialized in C#, .NET and ASP.NET Core, with experience building backend services, REST APIs and web applications. I also work with modern frontend technologies including React and Next.js.",
       p2:
         "My background in Electronic Engineering has strengthened my analytical thinking and understanding of system logic, which supports the way I design and structure software solutions.",
       p3:
@@ -34,7 +34,7 @@ export const translations = {
       categories: {
         backend: "Backend Development",
         frontend: "Frontend Development",
-        automation: "Automation & Integration",
+        automation: "Tools & Integration",
         databases: "Databases",
         soft: "Soft Skills",
       },
@@ -49,20 +49,34 @@ export const translations = {
       title: "Experience",
       jobs: [
         {
-          title: "Full-Stack Developer and Automation",
+          title: "Full-Stack Developer — Digital Products for Restaurants",
+          company: "A13AGENCY",
+          location: "Santa Marta, Colombia",
+          period: "February 2026 – Present",
+          responsibilities: [
+            "Developing a SaaS platform for interactive digital menus targeting the restaurant and hospitality sector, built from scratch with a modern tech stack.",
+            "Built a full-featured admin panel with Next.js 15 and MongoDB via Prisma ORM, including CRUD operations, drag & drop reordering and dynamic content management.",
+            "Implemented real-time cross-device communication combining Pusher Channels and BroadcastChannel API for order synchronization and live table state management.",
+            "Developed a headless CMS and REST API with secure session-based authentication, bilingual support (ES/EN) and a reusable multi-client architecture.",
+            "Integrated text-to-speech (TTS) synthesis and AI-powered product recommendation modules into the customer-facing menu experience.",
+            "Managed the complete order lifecycle: cart management, kitchen dispatch, billing with tax calculations and multiple payment method support.",
+          ],
+        },
+        {
+          title: "Full-Stack Developer",
           company: "WantDigital S.A.S",
           location: "Bogotá, Colombia",
-          period: "January 2025 – December 2025",
+          period: "February 2025 – October 2025",
           responsibilities: [
-            "Diseñé e implementé soluciones backend en PHP para sistemas administrativos empresariales enfocados en gestión documental y procesos contables.",
-            "Desarrollé workflows de automatización utilizando n8n y servicios OCR/IA para el procesamiento automático de comprobantes financieros en PDF.",
-            "Extraje y estructuré información clave desde documentos almacenados en Google Drive (número de soporte, fecha, concepto, valor y banco) para su integración en sistemas internos.",
-            "Implementé procesos automáticos de inserción, actualización y validación de registros en bases de datos MySQL como parte de pipelines de automatización.",
-            "Generé reportes consolidados en Excel organizados por año y mes para facilitar procesos de auditoría y control financiero.",
-            "Diseñé una arquitectura de automatización documental basada en la integración de PHP, n8n y servicios OCR externos.",
-            "Optimicé procesos administrativos reduciendo significativamente la carga operativa manual del área contable.",
-            "Mejoré la trazabilidad de la información financiera y reduje errores operativos mediante procesamiento automatizado de datos."
-          ]
+            "Designed and implemented backend solutions using C# and .NET for enterprise administrative systems focused on document management and accounting processes.",
+            "Developed data processing workflows integrating external services and APIs for automated processing of financial documents.",
+            "Extracted and structured key information from business documents (reference numbers, dates, concepts, amounts and banks) for integration into internal systems.",
+            "Implemented automated insertion, update and validation of records in SQL Server databases as part of data processing pipelines.",
+            "Generated consolidated Excel reports organized by year and month to support audit and financial control processes.",
+            "Designed a document automation architecture based on integration between .NET services and external APIs.",
+            "Reduced manual operational workload in the accounting department through automated processing of repetitive tasks.",
+            "Improved financial information traceability and reduced operational errors in administrative processes.",
+          ],
         },
       ],
     },
@@ -73,7 +87,7 @@ export const translations = {
         {
           title: "MarTree",
           description:
-            "Customizable personal link management platform designed to centralize online presence through a clean and modern interface.",
+            "Customizable personal link management platform built with Next.js, React and MongoDB, designed to centralize online presence through a clean and modern interface.",
           github:
             "https://github.com/Johan-Campo/deploy_MarTree_frontend",
           demo:
@@ -90,14 +104,6 @@ export const translations = {
           demo:
             "https://estadero-parador-arbyh6gdb0g3ceg7.canadacentral-01.azurewebsites.net/",
           previewImage: "/estadero-preview.png",
-        },
-
-        {
-          title: "ParadorSystem (Under Development)",
-          description:
-            "POS system built with PHP, MySQL and AJAX following an MVC architecture. Implements role-based authentication, product and inventory management, and dynamic CRUD operations without page reloads. Designed to support real business workflows such as sales registration and stock control.",
-          github: "",
-          demo: "",
         },
       ],
 
@@ -153,7 +159,7 @@ export const translations = {
     about: {
       title: "Acerca",
       p1:
-        "Desarrollador full-stack especializado en C#, .NET y ASP.NET Core, con experiencia en la construcción de servicios, integración de plataformas externas y desarrollo de aplicaciones web utilizando tecnologías modernas. También trabajo con PHP y Laravel como parte de mi stack backend.",
+        "Desarrollador full-stack especializado en C#, .NET y ASP.NET Core, con experiencia en la construcción de servicios backend, APIs REST y aplicaciones web. También trabajo con tecnologías modernas de frontend como React y Next.js.",
       p2:
         "Mi formación en Ingeniería Electrónica ha fortalecido mi pensamiento analítico y mi comprensión de la lógica de sistemas, lo que influye en la forma en que diseño y estructuro soluciones de software.",
       p3:
@@ -164,7 +170,7 @@ export const translations = {
       categories: {
         backend: "Desarrollo Backend",
         frontend: "Desarrollo Frontend",
-        automation: "Automatización e Integración",
+        automation: "Herramientas e Integración",
         databases: "Bases de Datos",
         soft: "Habilidades Blandas",
       },
@@ -179,20 +185,34 @@ export const translations = {
       title: "Experiencia",
       jobs: [
         {
-          title: "Desarrollador Full-Stack y Automatización",
+          title: "Desarrollador Full-Stack — Productos Digitales para Restaurantes",
+          company: "A13AGENCY",
+          location: "Santa Marta, Colombia",
+          period: "Febrero 2026 – Presente",
+          responsibilities: [
+            "Desarrollo de plataforma SaaS de menú digital interactivo para el sector de restaurantes y hospitalidad, construida desde cero con stack moderno.",
+            "Implementación de panel de administración con Next.js 15 y MongoDB mediante Prisma ORM, con CRUD completo, reordenamiento drag & drop y gestión de contenido dinámico.",
+            "Desarrollo de comunicación en tiempo real multiplataforma combinando Pusher Channels y BroadcastChannel API para sincronización de pedidos y estado de mesas entre dispositivos.",
+            "Desarrollo de CMS headless y API REST con autenticación segura por sesiones, soporte bilingüe (ES/EN) y arquitectura multi-cliente reutilizable con configuración centralizada.",
+            "Integración de módulos de síntesis de voz (TTS) e inteligencia artificial para recomendaciones de productos dentro del menú del cliente.",
+            "Gestión del ciclo de vida completo de pedidos: carrito, envío a cocina, facturación con impuestos y múltiples métodos de pago.",
+          ],
+        },
+        {
+          title: "Desarrollador Full-Stack",
           company: "WantDigital S.A.S",
           location: "Bogotá, Colombia",
-          period: "Enero 2025 – Diciembre 2025",
+          period: "Febrero 2025 – Octubre 2025",
           responsibilities: [
-            "Diseñé e implementé soluciones backend en PHP para sistemas administrativos empresariales orientados a la gestión documental y contable.",
-            "Desarrollé flujos de automatización utilizando n8n y servicios OCR/IA para el procesamiento automático de comprobantes financieros en PDF.",
-            "Extraje y estructuré información clave desde documentos almacenados en Google Drive (número de soporte, fecha, concepto, valor y entidad bancaria) para su posterior análisis.",
-            "Implementé procesos automáticos de actualización y modificación de registros en bases de datos MySQL como parte de los flujos de automatización.",
+            "Diseñé e implementé soluciones backend con C# y .NET para sistemas administrativos empresariales enfocados en gestión documental y contable.",
+            "Desarrollé flujos de procesamiento de datos integrando servicios externos y APIs para el procesamiento automatizado de comprobantes financieros.",
+            "Extraje y estructuré información clave desde documentos empresariales (número de soporte, fecha, concepto, valor y entidad bancaria) para su integración en sistemas internos.",
+            "Implementé procesos automáticos de inserción, actualización y validación de registros en bases de datos SQL Server como parte de pipelines de procesamiento de datos.",
             "Generé reportes consolidados en Excel organizados por año y mes, optimizados para procesos internos y auditoría contable.",
-            "Diseñé una arquitectura de automatización documental basada en integración entre PHP, n8n y servicios externos de OCR.",
+            "Diseñé una arquitectura de automatización documental basada en la integración entre servicios .NET y APIs externas.",
             "Reduje significativamente la carga operativa manual del área contable mediante la automatización de tareas repetitivas.",
-            "Mejoré la trazabilidad de la información financiera y reduje errores operativos en los procesos administrativos."
-          ]
+            "Mejoré la trazabilidad de la información financiera y reduje errores operativos en los procesos administrativos.",
+          ],
         },
       ],
     },
@@ -203,7 +223,7 @@ export const translations = {
         {
           title: "MarTree",
           description:
-            "Plataforma personalizable de gestión de enlaces diseñada para centralizar la presencia digital mediante una interfaz limpia y moderna.",
+            "Plataforma personalizable de gestión de enlaces construida con Next.js, React y MongoDB, diseñada para centralizar la presencia digital mediante una interfaz limpia y moderna.",
           github:
             "https://github.com/Johan-Campo/deploy_MarTree_frontend",
           demo:
@@ -220,14 +240,6 @@ export const translations = {
           demo:
             "https://estadero-parador-arbyh6gdb0g3ceg7.canadacentral-01.azurewebsites.net/",
           previewImage: "/estadero-preview.png",
-        },
-
-        {
-          title: "ParadorSystem (En desarrollo)",
-          description:
-            "Sistema POS desarrollado con PHP, MySQL y AJAX bajo arquitectura MVC. Implementa autenticación con control de acceso por roles, gestión de productos, ventas y control de inventario, además de operaciones CRUD dinámicas sin recarga de página orientadas a flujos reales de negocio.",
-          github: "",
-          demo: "",
         },
       ],
 

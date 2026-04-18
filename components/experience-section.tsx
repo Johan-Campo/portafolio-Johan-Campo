@@ -10,9 +10,14 @@ export function ExperienceSection() {
   const { t } = useLanguage()
   const { ref, isVisible } = useScrollReveal()
 
-  const experiences = t.experience.jobs.map((job) => ({
+  const jobSkills = [
+    ["Next.js", "React", "JavaScript", "MongoDB", "Prisma", "Pusher", "REST APIs", "Full-Stack Development"],
+    ["C#", ".NET", "SQL Server", "REST APIs", "API Integrations", "Backend Development"],
+  ]
+
+  const experiences = t.experience.jobs.map((job, index) => ({
     ...job,
-    skills: ["PHP", "MySQL","n8n", "Workflow Automation", "OCR Processing", "Google Drive API", "API Integrations", "Backend Development"],
+    skills: jobSkills[index] || [],
   }))
 
   return (
