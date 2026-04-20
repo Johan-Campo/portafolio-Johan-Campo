@@ -49,7 +49,7 @@ export const translations = {
       title: "Experience",
       jobs: [
         {
-          title: "Full-Stack Developer — Digital Products for Restaurants",
+          title: "Full-Stack Developer",
           company: "A13AGENCY",
           location: "Santa Marta, Colombia",
           period: "February 2026 – Present",
@@ -185,7 +185,7 @@ export const translations = {
       title: "Experiencia",
       jobs: [
         {
-          title: "Desarrollador Full-Stack — Productos Digitales para Restaurantes",
+          title: "Desarrollador Full-Stack",
           company: "A13AGENCY",
           location: "Santa Marta, Colombia",
           period: "Febrero 2026 – Presente",

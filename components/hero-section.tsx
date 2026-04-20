@@ -122,11 +122,10 @@ export function HeroSection() {
             <span className="px-3 py-1 bg-secondary rounded-full">C#</span>
             <span className="px-3 py-1 bg-secondary rounded-full">.NET</span>
             <span className="px-3 py-1 bg-secondary rounded-full">ASP.NET Core</span>
-            <span className="px-3 py-1 bg-secondary rounded-full">Laravel</span>
-            <span className="px-3 py-1 bg-secondary rounded-full">PHP</span>
+            <span className="px-3 py-1 bg-secondary rounded-full">Entity Framework Core</span>
             <span className="px-3 py-1 bg-secondary rounded-full">React</span>
-            <span className="px-3 py-1 bg-secondary rounded-full">TypeScript</span>
-            <span className="px-3 py-1 bg-secondary rounded-full">n8n</span>
+            <span className="px-3 py-1 bg-secondary rounded-full">Next.js</span>
+            <span className="px-3 py-1 bg-secondary rounded-full">Prisma</span>
           </div>
 
           <div className="flex flex-wrap gap-4 pt-4">
