@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',   //<-- COMENTA ESTO
+  output: 'export',
   images: {
     unoptimized: true,
   },
-  typescript: {
-    ignoreBuildErrors: true,
+  experimental: {
+    turbopackUseSystemTlsCerts: true,
   },
 };
 

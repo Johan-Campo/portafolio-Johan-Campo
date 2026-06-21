@@ -6,6 +6,7 @@ import { Mail, Phone, MapPin, Github, Linkedin } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { useLanguage } from "@/lib/language-context"
 import { useScrollReveal } from "@/hooks/use-scroll-reveal"
+import { SectionLabel } from "@/components/section-label"
 
 const socialLinks = [
   {
@@ -49,12 +50,12 @@ export function ContactSection() {
     <section
       id="contact"
       className={`py-24 px-6 scroll-reveal ${isVisible ? "visible" : ""}`}
-      ref={ref as React.RefObject<HTMLElement>}
+      ref={ref}
     >
       <div className="max-w-4xl mx-auto">
         <div className="grid md:grid-cols-[200px_1fr] gap-8">
           <div>
-            <span className="text-sm font-mono text-muted-foreground tracking-wider uppercase">{t.contact.title}</span>
+            <SectionLabel>{t.contact.title}</SectionLabel>
           </div>
           <div className="space-y-8">
             <div>
@@ -96,7 +97,7 @@ export function ContactSection() {
             <div className="flex gap-4 pt-4">
               {socialLinks.map((link) => (
                 <Button key={link.label} variant="outline" size="icon" asChild className="bg-transparent">
-                  <a href={link.href} target="_blank" rel="nooneper noreferrer" aria-label={link.label}>
+                  <a href={link.href} target="_blank" rel="noopener noreferrer" aria-label={link.label}>
                     <link.icon className="w-5 h-5" />
                   </a>
                 </Button>

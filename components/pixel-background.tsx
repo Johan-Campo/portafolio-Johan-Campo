@@ -75,7 +75,15 @@ export function PixelBackground() {
       return { r: 0, g: 0, b: 0, a: 1 }
     }
 
+    let animationId = 0
+    let isPaused = false
+
     const animate = () => {
+      if (isPaused) {
+        animationId = requestAnimationFrame(animate)
+        return
+      }
+
       ctx.fillStyle = "rgb(10, 15, 12)"
       ctx.fillRect(0, 0, canvas.width, canvas.height)
 
@@ -106,13 +114,21 @@ export function PixelBackground() {
         ctx.fillRect(pixel.x, pixel.y, pixelSize - 1, pixelSize - 1)
       })
 
-      requestAnimationFrame(animate)
+      animationId = requestAnimationFrame(animate)
     }
+
+    const handleVisibilityChange = () => {
+      isPaused = document.hidden
+    }
+
+    document.addEventListener("visibilitychange", handleVisibilityChange)
 
     animate()
 
     return () => {
       window.removeEventListener("resize", resizeCanvas)
+      document.removeEventListener("visibilitychange", handleVisibilityChange)
+      cancelAnimationFrame(animationId)
     }
   }, [])
 

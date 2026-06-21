@@ -4,22 +4,29 @@ import React from "react"
 import { useLanguage } from "@/lib/language-context"
 import { TechIcons } from "./tech-icons"
 import { useScrollReveal } from "@/hooks/use-scroll-reveal"
+import { SectionLabel } from "@/components/section-label"
 
 const technologies = [
-  { name: "C#", icon: TechIcons.csharp },
-  { name: ".NET", icon: TechIcons.dotnet },
+  { name: "Node.js", icon: TechIcons.nodejs },
+  { name: "TypeScript", icon: TechIcons.typescript },
+  { name: "Express.js", icon: TechIcons.nodejs },
   { name: "ASP.NET Core", icon: TechIcons.dotnet },
+  { name: ".NET", icon: TechIcons.dotnet },
   { name: "Next.js", icon: TechIcons.nextjs },
   { name: "React", icon: TechIcons.react },
   { name: "JavaScript", icon: TechIcons.javascript },
   { name: "Tailwind CSS", icon: TechIcons.tailwindcss },
   { name: "HTML", icon: TechIcons.html },
   { name: "SQL Server", icon: TechIcons.sqlserver },
+  { name: "MySQL", icon: TechIcons.mysql },
   { name: "PostgreSQL", icon: TechIcons.postgresql },
   { name: "MongoDB", icon: TechIcons.mongodb },
   { name: "Prisma", icon: TechIcons.prisma },
+  { name: "Sequelize", icon: TechIcons.sequelize },
+  { name: "Docker", icon: TechIcons.docker },
   { name: "Postman", icon: TechIcons.postman },
   { name: "Git", icon: TechIcons.git },
+  { name: "Jira", icon: TechIcons.jira },
 ]
 
 export function TechnologiesCarousel() {
@@ -29,10 +36,10 @@ export function TechnologiesCarousel() {
   return (
     <section
       className={`py-16 overflow-hidden scroll-reveal ${isVisible ? "visible" : ""}`}
-      ref={ref as React.RefObject<HTMLElement>}
+      ref={ref}
     >
       <div className="max-w-4xl mx-auto px-6 mb-8">
-        <span className="text-sm font-mono tracking-wider uppercase text-muted-foreground">{t.technologies.title}</span>
+        <SectionLabel>{t.technologies.title}</SectionLabel>
       </div>
 
       <div className="relative">

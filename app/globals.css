@@ -1,8 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-@custom-variant dark (&:is(.dark *));
-
 /* Updated to dark green/black palette with subtle green accents */
 :root {
   --background: oklch(0.1 0.02 150);
@@ -38,6 +36,10 @@
   --sidebar-accent-foreground: oklch(0.9 0.01 150);
   --sidebar-border: oklch(0.25 0.03 150);
   --sidebar-ring: oklch(0.55 0.12 150);
+  /* Accent teal/cyan — combines beautifully with dark green */
+  --accent-teal: #2dd4bf;
+  --accent-teal-dim: rgba(45, 212, 191, 0.12);
+  --accent-teal-glow: rgba(45, 212, 191, 0.35);
 }
 
 @theme inline {
@@ -79,6 +81,7 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
+  --color-accent-teal: #2dd4bf;
 }
 
 @layer base {
@@ -150,6 +153,17 @@ html {
   animation: cursor-blink 1s ease-in-out infinite;
 }
 
+/* Mobile nav menu — animated height via grid-template-rows */
+.mobile-menu {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.3s ease;
+}
+
+.mobile-menu.open {
+  grid-template-rows: 1fr;
+}
+
 /* Scroll reveal animation */
 @keyframes reveal-up {
   from {
@@ -169,6 +183,18 @@ html {
 
 .scroll-reveal.visible {
   animation: reveal-up 0.6s ease-out forwards;
+}
+
+/* Stagger children animation */
+.stagger-child {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.45s ease-out, transform 0.45s ease-out;
+}
+
+.visible .stagger-child {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /* Glitch animation for subtitle */
@@ -232,13 +258,226 @@ html {
     opacity: 1;
     transform: none;
   }
-  
+
   .animate-cursor-blink {
     animation: none;
     opacity: 0.6;
   }
-  
+
   .glitch-text.glitching {
     animation: none;
   }
+
+  .stagger-child {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+/* Noise texture overlay */
+.noise-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  pointer-events: none;
+  opacity: 0.025;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 256px 256px;
+}
+
+/* Spotlight border card effect */
+.spotlight-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.spotlight-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: inherit;
+  padding: 1.5px;
+  background: radial-gradient(
+    800px circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
+    var(--accent-teal),
+    transparent 40%
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+}
+
+.spotlight-card:hover::before {
+  opacity: 1;
+}
+
+/* Magnetic button wrapper */
+.magnetic-button {
+  transition: transform 0.15s ease-out;
+  will-change: transform;
+}
+
+/* Scroll progress bar */
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--primary), var(--accent-teal));
+  z-index: 9999;
+  transform-origin: left;
+  box-shadow: 0 0 8px var(--accent-teal-glow);
+}
+
+/* Back to top button */
+.back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 50;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.back-to-top.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Preloader — pixel-grid "JC" logo */
+.pixel-block {
+  width: 9px;
+  height: 9px;
+  border-radius: 1px;
+  background: var(--accent-teal);
+  box-shadow: 0 0 6px var(--accent-teal-glow);
+  opacity: 1;
+  transform: none;
+}
+
+.pixel-block.pixel-drop {
+  animation: pixel-fall 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+@keyframes pixel-fall {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px) scale(0.4);
+    background: #ffd34e;
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(3px) scale(1.05);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    background: var(--accent-teal);
+  }
+}
+
+/* Pac-Man loading bar */
+.pacman-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent-teal);
+  box-shadow: 0 0 4px var(--accent-teal-glow);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.pacman-dot.eaten {
+  opacity: 0;
+  transform: scale(0);
+}
+
+.pacman {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #ffd34e;
+  box-shadow: 0 0 8px rgba(255, 211, 78, 0.55);
+  clip-path: polygon(100% 74%, 44% 48%, 100% 19%, 100% 0%, 0% 0%, 0% 100%, 100% 100%);
+  transition: left 0.05s linear;
+}
+
+.pacman.pacman-chomp {
+  animation: pacman-chomp 0.3s linear infinite;
+}
+
+@keyframes pacman-chomp {
+  0%,
+  100% {
+    clip-path: polygon(100% 74%, 44% 48%, 100% 19%, 100% 0%, 0% 0%, 0% 100%, 100% 100%);
+  }
+  50% {
+    clip-path: polygon(100% 49%, 40% 49%, 100% 49%, 100% 0%, 0% 0%, 0% 100%, 100% 100%);
+  }
+}
+
+/* Counter animation */
+@keyframes counter-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Counter animation */
+@keyframes counter-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.counter-reveal {
+  animation: counter-reveal 0.6s ease-out forwards;
+}
+
+/* Gradient orbs background */
+.gradient-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.15;
+  pointer-events: none;
+  will-change: transform;
+}
+
+/* Tech pill hover glow */
+.tech-pill {
+  transition: all 0.3s ease;
+}
+
+.tech-pill:hover {
+  background-color: var(--accent-teal-dim);
+  border-color: var(--accent-teal);
+  color: var(--accent-teal);
+  box-shadow: 0 0 12px var(--accent-teal-glow);
+}
+
+/* Experience timeline glow dot */
+.timeline-dot-glow {
+  box-shadow: 0 0 0 4px var(--accent-teal-dim), 0 0 0 8px rgba(45, 212, 191, 0.05);
 }

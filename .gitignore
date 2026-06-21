@@ -2,6 +2,9 @@
 
 # dependencies
 /node_modules
+# this project uses pnpm — keep only pnpm-lock.yaml tracked
+package-lock.json
+yarn.lock
 
 # next.js
 /.next/
@@ -30,4 +33,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# claude code (local tool settings/permissions)
+.claude/
 

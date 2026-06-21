@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "johan-campo-portfolio-2e9bb",
     "public": "out",
     "ignore": [
       "firebase.json",
