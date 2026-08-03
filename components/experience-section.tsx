@@ -9,7 +9,7 @@ import { SectionLabel } from "@/components/section-label"
 
 const companyLogos: Record<string, string> = {
   "A13 Agency": "/a13agency-logo.webp",
-  "WantDigital S.A.S": "/wantdigital-logo.webp",
+  "Cámara de Representantes – Unidad de Trabajo Legislativo": "/Camara-representantes.png",
 }
 
 export function ExperienceSection() {
@@ -18,8 +18,8 @@ export function ExperienceSection() {
   const [expanded, setExpanded] = useState<Record<number, boolean>>({})
 
   const jobSkills = [
+    ["React", "TypeScript", "Node.js", "Express", "MySQL", "REST APIs", "SPA", "Nodemailer", "Git", "Cron", "Kactus", "Linux", "Unix"],
     ["Node.js", "Express.js", "Next.js", "React", "MySQL", "MongoDB", "Prisma", "Pusher", "REST APIs"],
-    ["Node.js", "Express.js", "TypeScript", "Sequelize", "Docker", "C#", ".NET", "ASP.NET Core", "SQL Server", "Entity Framework Core", "Azure", "Jira"],
   ]
 
   const experiences = t.experience.jobs.map((job, index) => ({
