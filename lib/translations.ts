@@ -50,29 +50,29 @@ export const translations = {
       showLess: "Show less",
       jobs: [
         {
-          title: "Full-Stack Developer",
+          title: "Software Developer",
+          company: "Cámara de Representantes – Unidad de Trabajo Legislativo",
+          location: "Bogotá, Colombia",
+          period: "December 2023 – June 2026",
+          responsibilities: [
+            "Modernized the office's institutional website, migrating a static HTML implementation to a Single Page Application (SPA) built with React and TypeScript, cutting load time from ~4s to ~1.5s and streamlining content publishing for citizens.",
+            "Designed and built a citizen request tracking platform (PQR) with React, Node.js, Express and MySQL, including status traceability, automated email notifications via Nodemailer and a REST API connecting frontend and backend.",
+            "Developed a document management, correspondence and asset inventory system that replaced manual Excel-based workflows with digital flows featuring ownership control, movement history and full administrative traceability.",
+            "Built operational dashboards in React backed by optimized MySQL queries, consolidating metrics on citizen requests, legislative project tracking, office agenda and inventory to support decision-making.",
+            "Automated internal processes with cron-scheduled Node.js scripts for periodic backups, report generation and data updates supporting the office's administrative and legislative workflows.",
+            "Managed the development lifecycle with Git and provided technical support to the office, coordinating with the House of Representatives' IT department on incidents and integrations with institutional tools such as Kactus, corporate email, VPN and other administrative platforms.",
+          ],
+        },
+        {
+          title: "Software Engineer & AI Integration (Freelance)",
           company: "A13 Agency",
           location: "Santa Marta, Colombia",
-          period: "January 2026 – Present",
+          period: "May 2026 – August 2026",
           responsibilities: [
             "Designed and implemented 25+ REST endpoints with Node.js and Next.js App Router: input validation, error handling, server-side authorization via NextAuth.js (JWT) and resource ownership check by businessId on every sensitive operation across a fully isolated multi-tenant architecture.",
             "Modeled the database schema in MongoDB via Prisma ORM with 15+ interrelated entities, migrated to multi-tenant in production without downtime, and implemented complete per-client data isolation at API and database level with ownership validation on every mutation.",
             "Solved cross-device state synchronization with Pusher Channels and BroadcastChannel API, eliminating polling: real-time KDS with bidirectional events, delivery tracking across 4 states, atomic stock decrement ($inc) and state recovery from database on session loss.",
             "Extended the platform with an image processing pipeline (sharp → WebP → iterative compression ≤200KB → Cloudflare R2 via S3 protocol), dynamic tax engine per product (VAT/consumption tax), electronic invoicing with full financial snapshot, and Claude API + ElevenLabs TTS integration.",
-          ],
-        },
-        {
-          title: "Full Stack Developer and Automations",
-          company: "WantDigital S.A.S",
-          location: "Bogotá, Colombia",
-          period: "January 2025 – December 2025",
-          responsibilities: [
-            "Built the server with Node.js, Express and TypeScript in layered architecture (controllers → services → repositories), JWT authentication with refresh tokens, role-based authorization and centralized validation with Joi and domain-typed error handling.",
-            "Managed data access with Sequelize ORM over MySQL applying Repository Pattern, transactions for critical operations, cursor-based pagination and connection pooling; query caching with Redis and structured logging with Winston for per-request traceability.",
-            "Complemented the Node.js stack with enterprise services in ASP.NET Core, applying Repository Pattern, dependency injection and LINQ over Entity Framework Core on SQL Server for business-critical modules.",
-            "Automated document processing pipelines integrating external OCR/AI services via Axios, background file processing with BullMQ over Redis and n8n as orchestration layer to normalize and persist data in MySQL without manual intervention.",
-            "Designed versioned REST API contracts with OpenAPI documentation, consistent error schemas and edge validation, reducing integration time for frontend teams and external consumers.",
-            "Tracked sprint scope and regression bugs in Jira while maintaining test coverage for critical Node.js paths, linking tickets to git branches for full requirement-to-commit traceability.",
           ],
         },
       ],
@@ -134,8 +134,8 @@ export const translations = {
 
     education: {
       title: "Education",
-      degree: "Electronic Engineering",
-      university: "Universidad del Magdalena",
+      degree: "Systems Engineering",
+      university: "Universidad Nacional Abierta y a Distancia (UNAD)",
     },
 
     contact: {
@@ -214,29 +214,29 @@ export const translations = {
       showLess: "Ver menos",
       jobs: [
         {
-          title: "Desarrollador Full-Stack",
+          title: "Software Developer",
+          company: "Cámara de Representantes – Unidad de Trabajo Legislativo",
+          location: "Bogotá, Colombia",
+          period: "Diciembre 2023 – Junio 2026",
+          responsibilities: [
+            "Modernicé el sitio web institucional del despacho migrando una implementación basada en HTML estático hacia una Single Page Application (SPA) desarrollada con React y TypeScript, reduciendo el tiempo de carga de aproximadamente 4 segundos a 1.5 segundos y facilitando la publicación y actualización de contenidos para la ciudadanía.",
+            "Diseñé e implementé una plataforma para la gestión y seguimiento de solicitudes ciudadanas (PQR) utilizando React, Node.js, Express y MySQL, incorporando trazabilidad de estados, notificaciones automáticas mediante Nodemailer y una API REST para la comunicación entre frontend y backend.",
+            "Desarrollé un sistema de gestión documental, correspondencia e inventario de activos que reemplazó procesos manuales en Excel por flujos digitales con control de responsables, historial de movimientos y trazabilidad de la información administrativa.",
+            "Construí herramientas y dashboards operativos en React, alimentados mediante consultas optimizadas en MySQL, consolidando indicadores relacionados con solicitudes ciudadanas, seguimiento de proyectos legislativos, agenda del despacho e inventario para apoyar la toma de decisiones.",
+            "Automaticé procesos internos mediante scripts en Node.js programados con cron, orientados a respaldos periódicos, generación de reportes y actualización de información utilizada en los procesos administrativos y legislativos del despacho.",
+            "Gestioné el ciclo de desarrollo mediante Git y brindé soporte tecnológico al despacho, coordinando con el área de Sistemas de la Cámara la atención de incidencias e integraciones relacionadas con herramientas institucionales como Kactus, correo corporativo, VPN y otras plataformas administrativas.",
+          ],
+        },
+        {
+          title: "Ingeniero de Software e Integración de IA (Freelance)",
           company: "A13 Agency",
           location: "Santa Marta, Colombia",
-          period: "Enero 2026 – Presente",
+          period: "Mayo 2026 – Agosto 2026",
           responsibilities: [
             "Diseñé e implementé 25+ endpoints REST con Node.js y Next.js App Router: validación de entrada, manejo de errores, autorización server-side vía NextAuth.js (JWT) y verificación de propiedad del recurso por businessId en cada operación sensible dentro de una arquitectura multi-tenant completamente aislada.",
             "Modelé el esquema de base de datos en MongoDB vía Prisma ORM con 15+ entidades interrelacionadas, migré a multi-tenant en producción sin downtime e implementé aislamiento completo de datos por cliente a nivel de API y base de datos con validación de propiedad en cada mutación.",
             "Resolví la sincronización de estado entre dispositivos con Pusher Channels y BroadcastChannel API, eliminando el polling: KDS en tiempo real con eventos bidireccionales, seguimiento de entregas en 4 estados, decremento atómico de stock ($inc) y recuperación de estado desde base de datos ante pérdida de sesión.",
             "Extendí la plataforma con un pipeline de procesamiento de imágenes (sharp → WebP → compresión iterativa ≤200KB → Cloudflare R2 vía protocolo S3), motor de impuestos dinámico por producto (IVA/impuesto al consumo), facturación electrónica con snapshot financiero completo e integración de Claude API + ElevenLabs TTS.",
-          ],
-        },
-        {
-          title: "Full Stack Developer and Automations",
-          company: "WantDigital S.A.S",
-          location: "Bogotá, Colombia",
-          period: "Enero 2025 – Diciembre 2025",
-          responsibilities: [
-            "Construí el servidor con Node.js, Express y TypeScript en arquitectura por capas (controllers → services → repositories), autenticación JWT con refresh tokens, autorización por roles y validación centralizada con Joi y manejo de errores tipado por dominio.",
-            "Gestioné el acceso a datos con Sequelize ORM sobre MySQL aplicando Repository Pattern, transacciones para operaciones críticas, paginación basada en cursor y connection pooling; caché de consultas con Redis y logging estructurado con Winston para trazabilidad por request.",
-            "Complementé el stack Node.js con servicios empresariales en ASP.NET Core, aplicando Repository Pattern, inyección de dependencias y LINQ sobre Entity Framework Core en SQL Server para módulos críticos de negocio.",
-            "Automaticé pipelines de procesamiento de documentos integrando servicios externos de OCR/IA vía Axios, procesamiento de archivos en background con BullMQ sobre Redis y n8n como capa de orquestación para normalizar y persistir datos en MySQL sin intervención manual.",
-            "Diseñé contratos de API REST versionados con documentación OpenAPI, esquemas de error consistentes y validación en el borde, reduciendo el tiempo de integración para equipos frontend y consumidores externos.",
-            "Gestioné alcance de sprint y bugs de regresión en Jira manteniendo cobertura de pruebas para rutas críticas de Node.js, vinculando tickets a ramas de git para trazabilidad completa de requerimiento a commit.",
           ],
         },
       ],
@@ -298,8 +298,8 @@ export const translations = {
 
     education: {
       title: "Educación",
-      degree: "Ingeniería Electrónica",
-      university: "Universidad del Magdalena",
+      degree: "Ingeniería de Sistemas",
+      university: "Universidad Nacional Abierta y a Distancia (UNAD)",
     },
 
     contact: {
