@@ -36,3 +36,6 @@ next-env.d.ts
 # claude code (local tool settings/permissions)
 .claude/
 
+# atlassian skill registry cache (local tool artifact)
+.atl/
+
