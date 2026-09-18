@@ -16,7 +16,7 @@ export function SkillsSection() {
     {
       title: t.skills.categories.backend,
       icon: Server,
-      skills: ["Node.js", "Express.js", "TypeScript", "ASP.NET Core", ".NET", "Entity Framework Core", "REST APIs"],
+      skills: ["Node.js", "Express.js", "TypeScript", "JavaScript", "REST APIs"],
     },
     {
       title: t.skills.categories.frontend,
@@ -26,17 +26,17 @@ export function SkillsSection() {
     {
       title: t.skills.categories.databases,
       icon: Database,
-      skills: ["SQL Server", "MySQL", "PostgreSQL", "MongoDB", "Prisma"],
+      skills: ["MongoDB", "MySQL", "PostgreSQL", "Prisma", "Sequelize"],
     },
     {
       title: t.skills.categories.architecture,
       icon: Layers,
-      skills: ["Real-time Systems", "Pusher Channels", "API Integrations", "WebSockets"],
+      skills: ["JWT", "NextAuth.js", "OAuth2", "Passport.js", "WebSockets", "Pusher Channels", "Claude API", "OpenAI API"],
     },
     {
       title: t.skills.categories.tools,
       icon: Cloud,
-      skills: ["Azure", "Docker", "Git", "GitHub Actions", "Postman", "n8n", "Jira"],
+      skills: ["AWS (Certified AI Practitioner)", "Docker", "Git (GitFlow)", "GitHub Actions", "Jira", "CI/CD", "Jest", "Redis"],
     },
     {
       title: t.skills.categories.soft,
