@@ -18,8 +18,8 @@ export function ExperienceSection() {
   const [expanded, setExpanded] = useState<Record<number, boolean>>({})
 
   const jobSkills = [
-    ["React", "TypeScript", "Node.js", "Express", "MySQL", "REST APIs", "SPA", "Nodemailer", "Git", "Cron", "Kactus", "Linux", "Unix"],
-    ["Node.js", "Express.js", "Next.js", "React", "MySQL", "MongoDB", "Prisma", "Pusher", "REST APIs"],
+    ["Node.js", "Next.js", "MongoDB", "Prisma", "JWT", "NextAuth.js", "Pusher Channels", "WebSockets", "Docker", "Jest", "GitHub Actions"],
+    ["React", "TypeScript", "Node.js", "Express", "MySQL", "REST APIs", "SPA", "Nodemailer", "Git", "Cron", "Kactus"],
   ]
 
   const experiences = t.experience.jobs.map((job, index) => ({

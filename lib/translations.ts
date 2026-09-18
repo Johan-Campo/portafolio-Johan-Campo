@@ -10,9 +10,9 @@ export const translations = {
     },
 
     hero: {
-      roles: ["Software Engineer", "Backend Developer", "Full-Stack Developer"],
+      roles: ["AI Software Engineer", "Full-Stack Developer", "Backend Developer"],
       subtitle:
-        "Backend-focused software developer building robust APIs and full-stack apps with Node.js, .NET and React.",
+        "Backend-focused engineer building AI-powered SaaS platforms and robust APIs with Node.js, Next.js and React.",
       downloadCV: "Download CV",
       downloadCVSpanish: "Download CV (Spanish)",
       downloadCVEnglish: "Download CV (English)",
@@ -22,9 +22,9 @@ export const translations = {
     about: {
       title: "About",
       p1:
-        "Software developer with over 1 year of experience building web applications and enterprise solutions, with a primary focus on backend using Node.js and .NET. I focus on writing clean, maintainable code oriented to generate real impact.",
+        "Software engineer with 2+ years of experience building web applications, APIs and enterprise platforms for both public and private sector clients. I focus on internal systems, multi-tenant SaaS platforms and AI integrations, writing clean, maintainable code oriented toward real business impact.",
       p3:
-        "I specialize in designing and implementing robust APIs with Express.js, Next.js and ASP.NET Core, applying layered architecture and design patterns over SQL and NoSQL databases like SQL Server, MySQL and MongoDB. With practical experience in frontend development with React and Next.js for full-stack solutions.",
+        "I specialize in designing and shipping robust REST APIs with Node.js, Express.js and Next.js, applying layered architecture over MongoDB, MySQL and PostgreSQL with Prisma and Sequelize. I also work hands-on with real-time systems (WebSockets, Pusher Channels) and AI integrations (Claude API, OpenAI API), plus practical frontend experience with React and Next.js for complete full-stack solutions.",
     },
 
     skills: {
@@ -50,29 +50,26 @@ export const translations = {
       showLess: "Show less",
       jobs: [
         {
-          title: "Software Developer",
+          title: "Software Developer & AI Integration",
+          company: "A13 Agency",
+          location: "Santa Marta, Colombia",
+          period: "May 2026 – Present",
+          responsibilities: [
+            "Built the backend for Mesero IA, a production multi-tenant SaaS platform, using Node.js, Next.js and MongoDB via Prisma ORM — shipping 25+ REST endpoints with complete per-client data isolation and JWT/NextAuth.js authorization.",
+            "Solved real-time cross-device state sync with Pusher Channels and the BroadcastChannel API, keeping the Kitchen Display System consistent through bidirectional events, 4-stage delivery tracking and atomic stock decrements.",
+            "Architected the application around a layered Controller-Service-Repository pattern with a microservices mindset, backed by Jest test coverage, Dockerized environments and GitHub Actions CI/CD pipelines under Scrum.",
+          ],
+        },
+        {
+          title: "Software Developer & Automation",
           company: "Cámara de Representantes – Unidad de Trabajo Legislativo",
           location: "Bogotá, Colombia",
           period: "December 2023 – June 2026",
           responsibilities: [
-            "Modernized the office's institutional website, migrating a static HTML implementation to a Single Page Application (SPA) built with React and TypeScript, cutting load time from ~4s to ~1.5s and streamlining content publishing for citizens.",
-            "Designed and built a citizen request tracking platform (PQR) with React, Node.js, Express and MySQL, including status traceability, automated email notifications via Nodemailer and a REST API connecting frontend and backend.",
-            "Developed a document management, correspondence and asset inventory system that replaced manual Excel-based workflows with digital flows featuring ownership control, movement history and full administrative traceability.",
-            "Built operational dashboards in React backed by optimized MySQL queries, consolidating metrics on citizen requests, legislative project tracking, office agenda and inventory to support decision-making.",
-            "Automated internal processes with cron-scheduled Node.js scripts for periodic backups, report generation and data updates supporting the office's administrative and legislative workflows.",
-            "Managed the development lifecycle with Git and provided technical support to the office, coordinating with the House of Representatives' IT department on incidents and integrations with institutional tools such as Kactus, corporate email, VPN and other administrative platforms.",
-          ],
-        },
-        {
-          title: "Software Engineer & AI Integration (Freelance)",
-          company: "A13 Agency",
-          location: "Santa Marta, Colombia",
-          period: "May 2026 – August 2026",
-          responsibilities: [
-            "Designed and implemented 25+ REST endpoints with Node.js and Next.js App Router: input validation, error handling, server-side authorization via NextAuth.js (JWT) and resource ownership check by businessId on every sensitive operation across a fully isolated multi-tenant architecture.",
-            "Modeled the database schema in MongoDB via Prisma ORM with 15+ interrelated entities, migrated to multi-tenant in production without downtime, and implemented complete per-client data isolation at API and database level with ownership validation on every mutation.",
-            "Solved cross-device state synchronization with Pusher Channels and BroadcastChannel API, eliminating polling: real-time KDS with bidirectional events, delivery tracking across 4 states, atomic stock decrement ($inc) and state recovery from database on session loss.",
-            "Extended the platform with an image processing pipeline (sharp → WebP → iterative compression ≤200KB → Cloudflare R2 via S3 protocol), dynamic tax engine per product (VAT/consumption tax), electronic invoicing with full financial snapshot, and Claude API + ElevenLabs TTS integration.",
+            "Led the institutional website's technology overhaul, migrating it from PHP to Next.js with React and TypeScript on a headless CMS — cutting Time-to-Interactive by 60% (from ~4s to ~1.5s) and enabling staff to publish content independently.",
+            "Spearheaded the full digitization of document management, correspondence and asset inventory, replacing spreadsheet-based workflows with a version-controlled (Git) platform that established clear administrative traceability and ownership.",
+            "Designed an omnichannel citizen request (PQR) platform with automated workflows, proactive Nodemailer notifications and a Node.js + Express REST API secured with JWT, giving full traceability from intake to resolution.",
+            "Automated backups, reporting and data synchronization with Node.js and cron jobs, cutting manual intervention by 80%, while managing the codebase with Git (GitFlow) and coordinating integrations with institutional tools like Kactus and VPN.",
           ],
         },
       ],
@@ -149,7 +146,7 @@ export const translations = {
     },
 
     footer: {
-      role: "Software Developer · Node.js · .NET",
+      role: "Software Engineer · Node.js · AI Integrations",
     },
 
     technologies: {
@@ -174,9 +171,9 @@ export const translations = {
     },
 
     hero: {
-      roles: ["Software Engineer", "Desarrollador Backend", "Desarrollador Full-Stack"],
+      roles: ["Ingeniero de Software IA", "Desarrollador Full-Stack", "Desarrollador Backend"],
       subtitle:
-        "Desarrollador de software enfocado en backend, construyendo APIs robustas y aplicaciones full-stack con Node.js, .NET y React.",
+        "Ingeniero de software enfocado en backend, construyendo plataformas SaaS con IA y APIs robustas con Node.js, Next.js y React.",
       downloadCV: "Descargar CV",
       downloadCVSpanish: "Descargar CV (Español)",
       downloadCVEnglish: "Descargar CV (Inglés)",
@@ -186,9 +183,9 @@ export const translations = {
     about: {
       title: "Acerca",
       p1:
-        "Desarrollador de software con más de 1 año de experiencia construyendo aplicaciones web y soluciones empresariales, con enfoque principal en backend usando Node.js y .NET. Me enfoco en escribir código limpio y mantenible orientado a generar impacto real.",
+        "Ingeniero de software con más de 2 años de experiencia construyendo aplicaciones web, APIs y plataformas empresariales para clientes de los sectores público y privado. Me enfoco en sistemas internos, plataformas SaaS multi-tenant e integraciones de IA, escribiendo código limpio y mantenible orientado a generar impacto real en el negocio.",
       p3:
-        "Me especializo en diseñar e implementar APIs robustas con Express.js, Next.js y ASP.NET Core, aplicando arquitectura en capas y patrones de diseño sobre bases de datos SQL y NoSQL como SQL Server, MySQL y MongoDB. Con experiencia práctica en desarrollo frontend con React y Next.js para soluciones full-stack.",
+        "Me especializo en diseñar e implementar APIs REST robustas con Node.js, Express.js y Next.js, aplicando arquitectura en capas sobre MongoDB, MySQL y PostgreSQL con Prisma y Sequelize. También trabajo con sistemas en tiempo real (WebSockets, Pusher Channels) e integraciones de IA (Claude API, OpenAI API), además de experiencia práctica en frontend con React y Next.js para soluciones full-stack completas.",
     },
 
     skills: {
@@ -214,29 +211,26 @@ export const translations = {
       showLess: "Ver menos",
       jobs: [
         {
-          title: "Software Developer",
+          title: "Software Developer & AI Integration",
+          company: "A13 Agency",
+          location: "Santa Marta, Colombia",
+          period: "Mayo 2026 – Actualidad",
+          responsibilities: [
+            "Construí el backend de Mesero IA, una plataforma SaaS multi-tenant en producción, con Node.js, Next.js y MongoDB vía Prisma ORM — entregando más de 25 endpoints REST con aislamiento completo de datos por cliente y autorización JWT/NextAuth.js.",
+            "Resolví la sincronización de estado en tiempo real entre dispositivos con Pusher Channels y la BroadcastChannel API, manteniendo la consistencia del Kitchen Display System mediante eventos bidireccionales, seguimiento de domicilios en 4 estados y descuentos atómicos de stock.",
+            "Diseñé la arquitectura de la aplicación con el patrón en capas Controller-Service-Repository y enfoque de microservicios, respaldada por pruebas con Jest, entornos Dockerizados y pipelines CI/CD con GitHub Actions bajo metodología Scrum.",
+          ],
+        },
+        {
+          title: "Software Developer & Automation",
           company: "Cámara de Representantes – Unidad de Trabajo Legislativo",
           location: "Bogotá, Colombia",
           period: "Diciembre 2023 – Junio 2026",
           responsibilities: [
-            "Modernicé el sitio web institucional del despacho migrando una implementación basada en HTML estático hacia una Single Page Application (SPA) desarrollada con React y TypeScript, reduciendo el tiempo de carga de aproximadamente 4 segundos a 1.5 segundos y facilitando la publicación y actualización de contenidos para la ciudadanía.",
-            "Diseñé e implementé una plataforma para la gestión y seguimiento de solicitudes ciudadanas (PQR) utilizando React, Node.js, Express y MySQL, incorporando trazabilidad de estados, notificaciones automáticas mediante Nodemailer y una API REST para la comunicación entre frontend y backend.",
-            "Desarrollé un sistema de gestión documental, correspondencia e inventario de activos que reemplazó procesos manuales en Excel por flujos digitales con control de responsables, historial de movimientos y trazabilidad de la información administrativa.",
-            "Construí herramientas y dashboards operativos en React, alimentados mediante consultas optimizadas en MySQL, consolidando indicadores relacionados con solicitudes ciudadanas, seguimiento de proyectos legislativos, agenda del despacho e inventario para apoyar la toma de decisiones.",
-            "Automaticé procesos internos mediante scripts en Node.js programados con cron, orientados a respaldos periódicos, generación de reportes y actualización de información utilizada en los procesos administrativos y legislativos del despacho.",
-            "Gestioné el ciclo de desarrollo mediante Git y brindé soporte tecnológico al despacho, coordinando con el área de Sistemas de la Cámara la atención de incidencias e integraciones relacionadas con herramientas institucionales como Kactus, correo corporativo, VPN y otras plataformas administrativas.",
-          ],
-        },
-        {
-          title: "Ingeniero de Software e Integración de IA (Freelance)",
-          company: "A13 Agency",
-          location: "Santa Marta, Colombia",
-          period: "Mayo 2026 – Agosto 2026",
-          responsibilities: [
-            "Diseñé e implementé 25+ endpoints REST con Node.js y Next.js App Router: validación de entrada, manejo de errores, autorización server-side vía NextAuth.js (JWT) y verificación de propiedad del recurso por businessId en cada operación sensible dentro de una arquitectura multi-tenant completamente aislada.",
-            "Modelé el esquema de base de datos en MongoDB vía Prisma ORM con 15+ entidades interrelacionadas, migré a multi-tenant en producción sin downtime e implementé aislamiento completo de datos por cliente a nivel de API y base de datos con validación de propiedad en cada mutación.",
-            "Resolví la sincronización de estado entre dispositivos con Pusher Channels y BroadcastChannel API, eliminando el polling: KDS en tiempo real con eventos bidireccionales, seguimiento de entregas en 4 estados, decremento atómico de stock ($inc) y recuperación de estado desde base de datos ante pérdida de sesión.",
-            "Extendí la plataforma con un pipeline de procesamiento de imágenes (sharp → WebP → compresión iterativa ≤200KB → Cloudflare R2 vía protocolo S3), motor de impuestos dinámico por producto (IVA/impuesto al consumo), facturación electrónica con snapshot financiero completo e integración de Claude API + ElevenLabs TTS.",
+            "Lideré la reconversión tecnológica del sitio web institucional, migrándolo de PHP a Next.js con React y TypeScript sobre un CMS headless — reduciendo el Time-to-Interactive en un 60% (de ~4s a ~1.5s) y permitiendo que el equipo publicara contenido de forma autónoma.",
+            "Impulsé la digitalización integral de la gestión documental, correspondencia e inventario de activos, reemplazando flujos basados en hojas de cálculo por una plataforma con control de versiones (Git) que estableció trazabilidad administrativa y responsabilidades claras.",
+            "Diseñé una plataforma omnicanal de solicitudes ciudadanas (PQR) con workflows automatizados, notificaciones proactivas vía Nodemailer y una API REST en Node.js + Express asegurada con JWT, garantizando trazabilidad completa desde el ingreso hasta la resolución.",
+            "Automaticé respaldos, reportes y sincronización de datos con Node.js y cron jobs, reduciendo la intervención manual en un 80%, gestionando el código con Git (GitFlow) y coordinando integraciones con herramientas institucionales como Kactus y VPN.",
           ],
         },
       ],
@@ -313,7 +307,7 @@ export const translations = {
     },
 
     footer: {
-      role: "Desarrollador de Software · Node.js · .NET",
+      role: "Ingeniero de Software · Node.js · Integraciones de IA",
     },
 
     technologies: {

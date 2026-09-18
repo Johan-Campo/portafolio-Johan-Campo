@@ -103,7 +103,7 @@ export function HeroSection() {
           <div className="flex flex-wrap items-center gap-2 text-sm font-mono text-muted-foreground">
             <span className="tech-pill px-3 py-1 bg-secondary rounded-full border border-transparent cursor-default">Node.js, Express.js</span>
             <span className="text-muted-foreground/40">·</span>
-            <span className="tech-pill px-3 py-1 bg-secondary rounded-full border border-transparent cursor-default">ASP.NET Core, .NET</span>
+            <span className="tech-pill px-3 py-1 bg-secondary rounded-full border border-transparent cursor-default">Claude API, OpenAI API</span>
             <span className="text-muted-foreground/40">·</span>
             <span className="tech-pill px-3 py-1 bg-secondary rounded-full border border-transparent cursor-default">React, Next.js</span>
             <span className="text-muted-foreground/40">·</span>

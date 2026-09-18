@@ -9,36 +9,36 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
 const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-jetbrains-mono" })
 
 export const metadata: Metadata = {
-  title: "Johan Campo | Software Developer",
+  title: "Johan Campo | AI Software Engineer",
   description:
-    "Software developer focused on backend with .NET and Node.js. Experience building APIs, enterprise systems and full-stack web applications with React and Next.js on modern architectures.",
+    "AI Software Engineer focused on backend with Node.js and Next.js. Experience building AI-powered SaaS platforms, REST APIs and full-stack web applications with React on modern architectures.",
   keywords: [
     "Johan Campo",
-    "Software Developer",
+    "AI Software Engineer",
     "Backend Developer",
-    ".NET",
-    "ASP.NET Core",
     "Node.js",
-    "React",
     "Next.js",
-    "C#",
+    "React",
+    "MongoDB",
+    "Prisma",
+    "AI Integrations",
     "Colombia",
     "Santa Marta",
   ],
   authors: [{ name: "Johan Alejandro Campo Pabón" }],
   openGraph: {
-    title: "Johan Campo | Software Developer",
+    title: "Johan Campo | AI Software Engineer",
     description:
-      "Software developer focused on backend with .NET and Node.js. Experience building APIs, enterprise systems and full-stack web applications with React and Next.js.",
+      "AI Software Engineer focused on backend with Node.js and Next.js. Experience building AI-powered SaaS platforms, REST APIs and full-stack web applications with React.",
     type: "website",
     locale: "en_US",
     siteName: "Johan Campo — Portfolio",
   },
   twitter: {
     card: "summary",
-    title: "Johan Campo | Software Developer",
+    title: "Johan Campo | AI Software Engineer",
     description:
-      "Software developer focused on backend with .NET and Node.js. Experience building APIs, enterprise systems and full-stack web applications.",
+      "AI Software Engineer focused on backend with Node.js and Next.js. Experience building AI-powered SaaS platforms, REST APIs and full-stack web applications.",
   },
   icons: {
     icon: "/icon.ico",
@@ -55,21 +55,20 @@ export default function RootLayout({
     "@type": "Person",
     name: "Johan Alejandro Campo Pabón",
     alternateName: "Johan Campo",
-    jobTitle: "Software Developer",
+    jobTitle: "AI Software Engineer",
     url: "https://johan-campo-portfolio-2e9bb.web.app",
     sameAs: [
       "https://github.com/JohanCampo",
       "https://www.linkedin.com/in/johan-campo/",
     ],
     knowsAbout: [
-      ".NET",
-      "ASP.NET Core",
       "Node.js",
-      "React",
       "Next.js",
-      "C#",
-      "SQL Server",
+      "React",
       "TypeScript",
+      "MongoDB",
+      "Prisma",
+      "AI Integrations",
     ],
   }
 
